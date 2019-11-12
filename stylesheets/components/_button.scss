@@ -1,0 +1,26 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.btn {
+    max-width: fit-content;
+    padding: 1.5rem 2rem;
+    transition: 0.5s;
+
+    &:hover {
+        transform: translateY(-0.7rem);
+        cursor: pointer;
+    }
+}
+
+.btn-centered {
+    margin: 0 auto;
+}
+
+.btn-rounded {
+    border-radius: 0.5rem;
+}
+
+.btn-pill {
+    border-radius: 5rem;
+}

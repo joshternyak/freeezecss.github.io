@@ -1,0 +1,58 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+  font: normal 125% / 1.4 $text-font-stack;
+}
+
+.text-small {
+  font-size: 1.2rem;
+  color: #606060;
+}
+
+.text-normal {
+  font-size: 1.6rem;
+}
+
+.text-medium {
+  font-size: 2rem;
+  color: #4d4d4d;
+}
+
+.text-large {
+  font-size: 4rem;
+}
+
+.text-huge {
+  font-size: 10rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-light {
+  color: #f7f7f7;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
