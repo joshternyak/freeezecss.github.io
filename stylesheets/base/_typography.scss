@@ -1,14 +1,18 @@
 /**
- * Basic typography style for copy text
- */
+  * Basic typography style for text
+*/
+
 body {
   color: $text-color;
   font: normal 125% / 1.4 $text-font-stack;
 }
 
+.text-decoration-none:hover {
+  text-decoration: none;
+}
+
 .text-small {
   font-size: 1.2rem;
-  color: #606060;
 }
 
 .text-normal {
@@ -17,15 +21,38 @@ body {
 
 .text-medium {
   font-size: 2rem;
-  color: #4d4d4d;
+  
+  @media(max-width: 500px) {
+    font-size: 1.8rem;
+  }
 }
 
 .text-large {
   font-size: 4rem;
+
+  @media(max-width: 800px) {
+    font-size: 3.7rem;
+  }
+
+  @media(max-width: 600px) {
+    font-size: 3.2rem;
+  }
 }
 
 .text-huge {
   font-size: 10rem;
+
+  @media(max-width: 900px) {
+    font-size: 9rem;
+  }
+
+  @media(max-width: 800px) {
+    font-size: 8rem;
+  }
+
+  @media(max-width: 600px) {
+    font-size: 6rem;
+  }
 }
 
 .text-center {
@@ -48,6 +75,22 @@ body {
   color: #f7f7f7;
 }
 
+.text-dark {
+  color: #141414;
+}
+
+.text-black {
+  color: #000;
+
+  &:hover {
+    color: #000;
+  }
+}
+
+.text-grey {
+  color: rgb(85, 85, 85);
+}
+
 .text-uppercase {
   text-transform: uppercase;
 }
@@ -56,3 +99,18 @@ body {
   text-transform: lowercase;
 }
 
+.font-weight-light {
+  font-weight: light;
+}
+
+.front-weight-normal {
+  font-weight: 500;
+}
+
+.font-weight-medium {
+  font-size: 700;
+}
+
+.font-weight-bold {
+  font-weight: 900;
+}

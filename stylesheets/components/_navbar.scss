@@ -1,3 +1,27 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the navigation component.
 // -----------------------------------------------------------------------------
+
+.navbar {
+    margin: 0 auto;
+    max-width: 40rem;
+    display: grid;
+    position: relative;
+    top: 4rem;
+    grid-template-columns: repeat(3, 1fr);
+    left: -2rem;
+    background: transparent;
+    z-index: 5;
+
+    @media(max-width: 50rem) {
+        max-width: 35rem;
+    }
+
+    @media(max-width: 45rem) {
+        max-width: 30rem;
+    }
+}
+
+.list-item {
+    list-style-type: none;
+}

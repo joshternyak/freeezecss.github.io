@@ -1,0 +1,23 @@
+.container {
+    max-width: 100rem;
+    padding: 0;
+
+    @media(max-width: 1050px) {
+        width: 90vw;
+    }
+}
+
+.col-12 {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.col {
+    flex: 1;
+    margin: 0.75rem;
+    flex-basis: 20rem;
+
+    @media(max-width: 1200px) {
+        flex-basis: 30rem;
+    }
+}
