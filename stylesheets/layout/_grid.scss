@@ -30,6 +30,15 @@
     }
 }
 
+.col-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    @media(max-width: 675px) {
+        grid-template-columns: 1fr;
+    }
+}
+
 .col {
     flex: 1;
     margin: 0.75rem;
