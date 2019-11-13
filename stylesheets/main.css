@@ -145,7 +145,7 @@
 }
 
 .raise-up-slightly {
-  margin-top: -2rem;
+  margin-top: -2.3rem;
 }
 
 .m-0 {
@@ -1213,9 +1213,9 @@ body {
 }
 
 .btn {
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
   padding: 1.5rem 2.5rem;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -1241,6 +1241,11 @@ body {
 
 .btn-pill {
   border-radius: 5rem;
+}
+
+.btn-massive {
+  width: 18rem;
+  height: 6rem;
 }
 
 .card {

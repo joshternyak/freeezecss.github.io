@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 
 .btn {
-    max-width: fit-content;
+    min-width: fit-content;
     padding: 1.5rem 2.5rem;
     transition: 0.3s;
 
@@ -25,4 +25,9 @@
 
 .btn-pill {
     border-radius: 5rem;
+}
+
+.btn-massive {
+    width: 18rem;
+    height: 6rem;
 }
