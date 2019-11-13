@@ -6,6 +6,10 @@
   padding: 0 0.5rem;
 }
 
+.bg-white {
+  background-color: white;
+}
+
 .bg-dark {
   background-color: #082138;
 }
@@ -36,6 +40,10 @@
 
 .bg-gray {
   background-color: #bebebe;
+}
+
+.bg-black {
+  background-color: black;
 }
 
 .display-grid {
@@ -76,6 +84,10 @@
           justify-content: center;
 }
 
+.center-self {
+  margin: 0 auto;
+}
+
 .horizontal-center {
   -ms-grid-column-align: center;
       justify-self: center;
@@ -93,6 +105,10 @@
 
 .right {
   justify-items: end;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 .full-screen {
@@ -297,15 +313,31 @@
 }
 
 .border-1 {
-  border: 0.1rem solid black;
+  border: 0.1rem solid #a5a5a5;
 }
 
 .border-2 {
-  border: 0.2rem solid black;
+  border: 0.2rem solid #a5a5a5;
 }
 
 .border-3 {
-  border: 0.3rem solid black;
+  border: 0.3rem solid #a5a5a5;
+}
+
+.rounded-0 {
+  border-radius: 0;
+}
+
+.rounded-1 {
+  border-radius: 1rem;
+}
+
+.rounded-2 {
+  border-radius: 2rem;
+}
+
+.rounded-3 {
+  border-radius: 3rem;
 }
 
 .fade-in {
@@ -1150,5 +1182,31 @@ body {
 
 .list-item {
   list-style-type: none;
+}
+
+.form {
+  width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.form .input {
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  width: 30rem;
+  margin: 0;
+  max-width: 30rem;
+  border-radius: 0.3rem;
+  border: 0.1rem solid #adadad;
+}
+
+.form .input:focus {
+  outline: none;
+  border: 0.1rem solid #2c76ff;
 }
 /*# sourceMappingURL=main.css.map */

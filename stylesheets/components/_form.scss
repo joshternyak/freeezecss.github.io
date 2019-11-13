@@ -1,3 +1,24 @@
 // -----------------------------------------------------------------------------
 // This file contains all styles related to the form component.
 // -----------------------------------------------------------------------------
+
+.form {
+    width: 100%;
+    height: fit-content;
+    justify-content: center;
+    
+
+    .input {
+        min-width: fit-content;
+        width: 30rem;
+        margin: 0;
+        max-width: 30rem;
+        border-radius: 0.3rem;
+        border: 0.1rem solid rgb(173, 173, 173);
+
+        &:focus {
+            outline: none;
+            border: 0.1rem solid rgb(44, 118, 255);
+        }
+    }
+}

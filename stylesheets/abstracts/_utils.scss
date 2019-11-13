@@ -9,6 +9,10 @@
     padding: 0 0.5rem;
 }
 
+.bg-white {
+    background-color: white;
+}
+
 .bg-dark {
     background-color: #082138;
 }
@@ -41,6 +45,10 @@
     background-color: rgb(190, 190, 190);
 }
 
+.bg-black {
+    background-color: black;
+}
+
 .display-grid {
     display: grid;
 }
@@ -71,6 +79,10 @@
     justify-content: center;
 }
 
+.center-self {
+    margin: 0 auto;
+}
+
 .horizontal-center {
     justify-self: center;
 }
@@ -85,6 +97,10 @@
 
 .right {
     justify-items: end;
+}
+
+.w-100 {
+    width: 100%;
 }
 
 .full-screen {
@@ -282,15 +298,31 @@
 }
 
 .border-1 {
-    border: 0.1rem solid black;
+    border: 0.1rem solid rgb(165, 165, 165);
 }
 
 .border-2 {
-    border: 0.2rem solid black;
+    border: 0.2rem solid rgb(165, 165, 165);
 }
 
 .border-3 {
-    border: 0.3rem solid black;
+    border: 0.3rem solid rgb(165, 165, 165);
+}
+
+.rounded-0 {
+    border-radius: 0;
+}
+
+.rounded-1 {
+    border-radius: 1rem;
+}
+
+.rounded-2 {
+    border-radius: 2rem;
+}
+
+.rounded-3 {
+    border-radius: 3rem;
 }
 
 
