@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100, 200,300,400,500,600,700, 800,900&display=swap");
 .bg-dark {
   background-color: #082138;
 }
@@ -89,7 +90,7 @@
 
 .full-screen {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -826,17 +827,12 @@ a {
   text-decoration: none;
 }
 
-a:hover, a:active, a:focus {
-  color: #222222;
-  text-decoration: underline;
-}
-
 /**
   * Basic typography style for text
 */
 body {
   color: #222222;
-  font: normal 125%/1.4 "Open Sans", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font: normal 125%/1.4 "Raleway", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
 .text-decoration-none:hover {
