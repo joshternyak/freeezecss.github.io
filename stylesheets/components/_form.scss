@@ -10,15 +10,20 @@
 
     .input {
         min-width: fit-content;
-        width: 30rem;
         margin: 0;
-        max-width: 30rem;
+        width: 35rem;
+        max-width: 35rem;
         border-radius: 0.3rem;
         border: 0.1rem solid rgb(173, 173, 173);
 
         &:focus {
             outline: none;
             border: 0.1rem solid rgb(44, 118, 255);
+        }
+
+        @media(max-width: 450px) {
+            width: fit-content;
+            max-width: 30rem;
         }
     }
 }

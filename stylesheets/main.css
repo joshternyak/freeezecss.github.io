@@ -1205,6 +1205,13 @@ body {
   }
 }
 
+.footer {
+  min-height: -webkit-fit-content;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+  margin-top: 10rem;
+}
+
 .btn {
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
@@ -1283,6 +1290,11 @@ body {
           flex: 1;
 }
 
+.vertical-item {
+  margin-top: 1rem;
+  margin-left: -2rem;
+}
+
 .form {
   width: 100%;
   height: -webkit-fit-content;
@@ -1297,9 +1309,9 @@ body {
   min-width: -webkit-fit-content;
   min-width: -moz-fit-content;
   min-width: fit-content;
-  width: 30rem;
   margin: 0;
-  max-width: 30rem;
+  width: 35rem;
+  max-width: 35rem;
   border-radius: 0.3rem;
   border: 0.1rem solid #adadad;
 }
@@ -1307,5 +1319,14 @@ body {
 .form .input:focus {
   outline: none;
   border: 0.1rem solid #2c76ff;
+}
+
+@media (max-width: 450px) {
+  .form .input {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    max-width: 30rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
