@@ -16,6 +16,20 @@
     justify-content: space-evenly;
 }
 
+.col-3 {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    .col {
+        flex: 1;
+        margin-right: 2rem;
+        
+        @media(max-width: 750px) {
+            flex: auto;
+        }
+    }
+}
+
 .col {
     flex: 1;
     margin: 0.75rem;

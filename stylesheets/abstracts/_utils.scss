@@ -2,6 +2,13 @@
 // This file contains all utilities.
 // -----------------------------------------------------------------------------
 
+.code {
+    background-color: rgb(235, 235, 235);
+    border-radius: 0.2rem;
+    border: 0.1rem solid lightgrey;
+    padding: 0 0.5rem;
+}
+
 .bg-dark {
     background-color: #082138;
 }
@@ -273,6 +280,19 @@
 .border-none {
     border: none;
 }
+
+.border-1 {
+    border: 0.1rem solid black;
+}
+
+.border-2 {
+    border: 0.2rem solid black;
+}
+
+.border-3 {
+    border: 0.3rem solid black;
+}
+
 
 .fade-in {
     animation-name: fade-in;
